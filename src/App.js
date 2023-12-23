@@ -1,15 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Greeting from './components/Greeting';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Greetings from './components/Greetings';
 
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Greeting} />
-      </Switch>
-    </Router>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Greetings />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
