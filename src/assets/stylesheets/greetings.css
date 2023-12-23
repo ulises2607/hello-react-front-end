@@ -1,0 +1,29 @@
+.greetings-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 24px;
+  color: #333;
+}
+
+.no-greetings-text {
+  font-size: 18px;
+  color: #888;
+}
+
+.greeting-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.greeting-btn:hover {
+  background-color: #45a049;
+}
