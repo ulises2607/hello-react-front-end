@@ -8,7 +8,7 @@ function Greetings() {
 
   useEffect(() => {
     dispatch(fetchGreetings()).catch((error) => {
-      console.error('Error fetching greetings:', error);
+      console.error(error);
     });
   }, [dispatch]);
 

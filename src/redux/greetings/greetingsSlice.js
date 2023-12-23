@@ -26,7 +26,7 @@ const fetchGreetings = () => async (dispatch) => {
     const data = await res.json();
     dispatch(setGreetings(data));
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };
 
