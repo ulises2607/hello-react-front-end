@@ -27,5 +27,4 @@ function Greetings() {
   );
 }
 
-
 export default Greetings;
